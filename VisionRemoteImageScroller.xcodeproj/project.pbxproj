@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282ADA141CB3A17A006488BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA131CB3A17A006488BA /* main.m */; };
+		282ADA171CB3A17A006488BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA161CB3A17A006488BA /* AppDelegate.m */; };
+		282ADA1A1CB3A17A006488BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA191CB3A17A006488BA /* ViewController.m */; };
+		282ADA1D1CB3A17A006488BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282ADA1B1CB3A17A006488BA /* Main.storyboard */; };
+		282ADA1F1CB3A17A006488BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282ADA1E1CB3A17A006488BA /* Assets.xcassets */; };
+		282ADA221CB3A17A006488BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282ADA201CB3A17A006488BA /* LaunchScreen.storyboard */; };
+		282ADA2D1CB3A17A006488BA /* VisionRemoteImageScrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA2C1CB3A17A006488BA /* VisionRemoteImageScrollerUITests.m */; };
+		282ADA3B1CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA3A1CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.m */; };
+		282ADA461CB3A20D006488BA /* visionImageScroller-no-pictures.png in Resources */ = {isa = PBXBuildFile; fileRef = 282ADA3D1CB3A20D006488BA /* visionImageScroller-no-pictures.png */; };
+		282ADA471CB3A20D006488BA /* VisionImageScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA3F1CB3A20D006488BA /* VisionImageScroller.m */; };
+		282ADA491CB3A20D006488BA /* VisionRemoteImageScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ADA451CB3A20D006488BA /* VisionRemoteImageScroller.m */; };
+		54770C8F3A58BFACEB1F95E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860FD105B8EB1FEE7046291C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282ADA291CB3A17A006488BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282ADA071CB3A17A006488BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282ADA0E1CB3A17A006488BA;
+			remoteInfo = VisionRemoteImageScroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2127CE2EACC11D72062EF257 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		282ADA0F1CB3A17A006488BA /* VisionRemoteImageScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionRemoteImageScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282ADA131CB3A17A006488BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282ADA151CB3A17A006488BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282ADA161CB3A17A006488BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282ADA181CB3A17A006488BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		282ADA191CB3A17A006488BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282ADA1C1CB3A17A006488BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282ADA1E1CB3A17A006488BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		282ADA211CB3A17A006488BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		282ADA231CB3A17A006488BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282ADA281CB3A17A006488BA /* VisionRemoteImageScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionRemoteImageScrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282ADA2C1CB3A17A006488BA /* VisionRemoteImageScrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisionRemoteImageScrollerUITests.m; sourceTree = "<group>"; };
+		282ADA2E1CB3A17A006488BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282ADA391CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionRemoteImageScrollerDemoController.h; sourceTree = "<group>"; };
+		282ADA3A1CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionRemoteImageScrollerDemoController.m; sourceTree = "<group>"; };
+		282ADA3D1CB3A20D006488BA /* visionImageScroller-no-pictures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visionImageScroller-no-pictures.png"; sourceTree = "<group>"; };
+		282ADA3E1CB3A20D006488BA /* VisionImageScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionImageScroller.h; sourceTree = "<group>"; };
+		282ADA3F1CB3A20D006488BA /* VisionImageScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionImageScroller.m; sourceTree = "<group>"; };
+		282ADA441CB3A20D006488BA /* VisionRemoteImageScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisionRemoteImageScroller.h; sourceTree = "<group>"; };
+		282ADA451CB3A20D006488BA /* VisionRemoteImageScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisionRemoteImageScroller.m; sourceTree = "<group>"; };
+		860FD105B8EB1FEE7046291C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB067F4FB170FBC228F1E36 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282ADA0C1CB3A17A006488BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54770C8F3A58BFACEB1F95E4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282ADA251CB3A17A006488BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282ADA061CB3A17A006488BA = {
+			isa = PBXGroup;
+			children = (
+				282ADA111CB3A17A006488BA /* VisionRemoteImageScroller */,
+				282ADA2B1CB3A17A006488BA /* VisionRemoteImageScrollerUITests */,
+				282ADA101CB3A17A006488BA /* Products */,
+				2B13EE06D304A71FE2776C9C /* Pods */,
+				CBF3AFEEB3528B3EC133D1BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		282ADA101CB3A17A006488BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA0F1CB3A17A006488BA /* VisionRemoteImageScroller.app */,
+				282ADA281CB3A17A006488BA /* VisionRemoteImageScrollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282ADA111CB3A17A006488BA /* VisionRemoteImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA381CB3A1B4006488BA /* VisionImageScrollerDemo */,
+				282ADA371CB3A1AE006488BA /* VisionControl */,
+				282ADA151CB3A17A006488BA /* AppDelegate.h */,
+				282ADA161CB3A17A006488BA /* AppDelegate.m */,
+				282ADA181CB3A17A006488BA /* ViewController.h */,
+				282ADA191CB3A17A006488BA /* ViewController.m */,
+				282ADA1B1CB3A17A006488BA /* Main.storyboard */,
+				282ADA1E1CB3A17A006488BA /* Assets.xcassets */,
+				282ADA201CB3A17A006488BA /* LaunchScreen.storyboard */,
+				282ADA231CB3A17A006488BA /* Info.plist */,
+				282ADA121CB3A17A006488BA /* Supporting Files */,
+			);
+			path = VisionRemoteImageScroller;
+			sourceTree = "<group>";
+		};
+		282ADA121CB3A17A006488BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA131CB3A17A006488BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282ADA2B1CB3A17A006488BA /* VisionRemoteImageScrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA2C1CB3A17A006488BA /* VisionRemoteImageScrollerUITests.m */,
+				282ADA2E1CB3A17A006488BA /* Info.plist */,
+			);
+			path = VisionRemoteImageScrollerUITests;
+			sourceTree = "<group>";
+		};
+		282ADA371CB3A1AE006488BA /* VisionControl */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA3C1CB3A20D006488BA /* VisionImageScroller */,
+			);
+			path = VisionControl;
+			sourceTree = "<group>";
+		};
+		282ADA381CB3A1B4006488BA /* VisionImageScrollerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA391CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.h */,
+				282ADA3A1CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.m */,
+			);
+			path = VisionImageScrollerDemo;
+			sourceTree = "<group>";
+		};
+		282ADA3C1CB3A20D006488BA /* VisionImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA3D1CB3A20D006488BA /* visionImageScroller-no-pictures.png */,
+				282ADA3E1CB3A20D006488BA /* VisionImageScroller.h */,
+				282ADA3F1CB3A20D006488BA /* VisionImageScroller.m */,
+				282ADA431CB3A20D006488BA /* VisionRemoteImageScroller */,
+			);
+			path = VisionImageScroller;
+			sourceTree = "<group>";
+		};
+		282ADA431CB3A20D006488BA /* VisionRemoteImageScroller */ = {
+			isa = PBXGroup;
+			children = (
+				282ADA441CB3A20D006488BA /* VisionRemoteImageScroller.h */,
+				282ADA451CB3A20D006488BA /* VisionRemoteImageScroller.m */,
+			);
+			path = VisionRemoteImageScroller;
+			sourceTree = "<group>";
+		};
+		2B13EE06D304A71FE2776C9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAB067F4FB170FBC228F1E36 /* Pods.debug.xcconfig */,
+				2127CE2EACC11D72062EF257 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBF3AFEEB3528B3EC133D1BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				860FD105B8EB1FEE7046291C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282ADA0E1CB3A17A006488BA /* VisionRemoteImageScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282ADA311CB3A17A006488BA /* Build configuration list for PBXNativeTarget "VisionRemoteImageScroller" */;
+			buildPhases = (
+				7BC9B8F3A51D01FA3C086984 /* Check Pods Manifest.lock */,
+				282ADA0B1CB3A17A006488BA /* Sources */,
+				282ADA0C1CB3A17A006488BA /* Frameworks */,
+				282ADA0D1CB3A17A006488BA /* Resources */,
+				E189A837380959E3D1C861DC /* Embed Pods Frameworks */,
+				043791975321E538A8B68B6F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionRemoteImageScroller;
+			productName = VisionRemoteImageScroller;
+			productReference = 282ADA0F1CB3A17A006488BA /* VisionRemoteImageScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282ADA271CB3A17A006488BA /* VisionRemoteImageScrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282ADA341CB3A17A006488BA /* Build configuration list for PBXNativeTarget "VisionRemoteImageScrollerUITests" */;
+			buildPhases = (
+				282ADA241CB3A17A006488BA /* Sources */,
+				282ADA251CB3A17A006488BA /* Frameworks */,
+				282ADA261CB3A17A006488BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282ADA2A1CB3A17A006488BA /* PBXTargetDependency */,
+			);
+			name = VisionRemoteImageScrollerUITests;
+			productName = VisionRemoteImageScrollerUITests;
+			productReference = 282ADA281CB3A17A006488BA /* VisionRemoteImageScrollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282ADA071CB3A17A006488BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VIIIO;
+				TargetAttributes = {
+					282ADA0E1CB3A17A006488BA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					282ADA271CB3A17A006488BA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 282ADA0E1CB3A17A006488BA;
+					};
+				};
+			};
+			buildConfigurationList = 282ADA0A1CB3A17A006488BA /* Build configuration list for PBXProject "VisionRemoteImageScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282ADA061CB3A17A006488BA;
+			productRefGroup = 282ADA101CB3A17A006488BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282ADA0E1CB3A17A006488BA /* VisionRemoteImageScroller */,
+				282ADA271CB3A17A006488BA /* VisionRemoteImageScrollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282ADA0D1CB3A17A006488BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282ADA221CB3A17A006488BA /* LaunchScreen.storyboard in Resources */,
+				282ADA461CB3A20D006488BA /* visionImageScroller-no-pictures.png in Resources */,
+				282ADA1F1CB3A17A006488BA /* Assets.xcassets in Resources */,
+				282ADA1D1CB3A17A006488BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282ADA261CB3A17A006488BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043791975321E538A8B68B6F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC9B8F3A51D01FA3C086984 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E189A837380959E3D1C861DC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282ADA0B1CB3A17A006488BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282ADA491CB3A20D006488BA /* VisionRemoteImageScroller.m in Sources */,
+				282ADA1A1CB3A17A006488BA /* ViewController.m in Sources */,
+				282ADA471CB3A20D006488BA /* VisionImageScroller.m in Sources */,
+				282ADA171CB3A17A006488BA /* AppDelegate.m in Sources */,
+				282ADA3B1CB3A1F3006488BA /* VisionRemoteImageScrollerDemoController.m in Sources */,
+				282ADA141CB3A17A006488BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282ADA241CB3A17A006488BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282ADA2D1CB3A17A006488BA /* VisionRemoteImageScrollerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282ADA2A1CB3A17A006488BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282ADA0E1CB3A17A006488BA /* VisionRemoteImageScroller */;
+			targetProxy = 282ADA291CB3A17A006488BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282ADA1B1CB3A17A006488BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282ADA1C1CB3A17A006488BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282ADA201CB3A17A006488BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282ADA211CB3A17A006488BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282ADA2F1CB3A17A006488BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		282ADA301CB3A17A006488BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282ADA321CB3A17A006488BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAB067F4FB170FBC228F1E36 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisionRemoteImageScroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionRemoteImageScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		282ADA331CB3A17A006488BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2127CE2EACC11D72062EF257 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisionRemoteImageScroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionRemoteImageScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		282ADA351CB3A17A006488BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisionRemoteImageScrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionRemoteImageScrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisionRemoteImageScroller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		282ADA361CB3A17A006488BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisionRemoteImageScrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = VIIIO.VisionRemoteImageScrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisionRemoteImageScroller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282ADA0A1CB3A17A006488BA /* Build configuration list for PBXProject "VisionRemoteImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282ADA2F1CB3A17A006488BA /* Debug */,
+				282ADA301CB3A17A006488BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282ADA311CB3A17A006488BA /* Build configuration list for PBXNativeTarget "VisionRemoteImageScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282ADA321CB3A17A006488BA /* Debug */,
+				282ADA331CB3A17A006488BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282ADA341CB3A17A006488BA /* Build configuration list for PBXNativeTarget "VisionRemoteImageScrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282ADA351CB3A17A006488BA /* Debug */,
+				282ADA361CB3A17A006488BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282ADA071CB3A17A006488BA /* Project object */;
+}
