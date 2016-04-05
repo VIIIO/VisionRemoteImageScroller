@@ -43,6 +43,7 @@ None.
 
 * iOS 6 or later. Requires ARC  ,support iPhone/iPad.
 * iOS 6及以上系统可使用. 本控件纯ARC，支持iPhone/iPad横竖屏
+
 ## More 更多 
 
 Please create a issue if you have any questions.
