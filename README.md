@@ -4,7 +4,7 @@ VisionRemoteImageScroller
 * 非常实用、可自动播放的图片滑动器（类似幻灯片效果），可在水平方向无限滚动。图片远程加载依赖于[SDWebImage](https://github.com/rs/SDWebImage/ "SDWebImage")，请自行安装。若只需要加载本地图片，请使用同系列控件：[VisionLocalImageScroller](https://github.com/VIIIO/VisionLocalImageScroller "VisionLocalImageScroller")
 
 ### Screenshots
-None.
+![image](http://blog.viiio.com/wp-content/uploads/2016/04/visioncontrol_01.gif)
 
 ### Contents
 ## Installation 安装
